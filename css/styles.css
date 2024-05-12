@@ -43,3 +43,28 @@ footer {
 .autor:hover, .estandares:hover {
     background-color: #f0f0f0;
 }
+
+/*Estilos para autor*/
+.izqMenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%; 
+    width: 200px; 
+    background-color: #f0f0f0; 
+    padding-top: 20px;
+}
+
+.element {
+    display: block; 
+    padding: 10px 20px;
+    text-decoration: none; 
+    color: #333; 
+    text-align: center;
+    font-size: 3rem;
+    border-color: #333;
+}
+
+.element:hover {
+    background-color: #ddd; 
+}
